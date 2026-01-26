@@ -1,0 +1,157 @@
+File Path,File Type,Priority,Status,Notes
+package.json,Config,CRITICAL,Not Started,Node.js dependencies
+tsconfig.json,Config,CRITICAL,Not Started,TypeScript configuration
+next.config.js,Config,CRITICAL,Not Started,Next.js configuration
+convex.json,Config,CRITICAL,Not Started,Convex database config
+.env.local,Config,CRITICAL,Not Started,Environment variables
+.gitignore,Config,CRITICAL,Not Started,Git ignore file
+/app/page.tsx,TSX,CRITICAL,Not Started,Homepage
+about.html,HTML,CRITICAL,Not Started,About Us page
+contact.html,HTML,CRITICAL,Not Started,Contact page
+request-quote.html,HTML,CRITICAL,Not Started,Quote request page
+robots.txt,SEO,CRITICAL,Not Started,Search engine directives
+sitemap.xml,SEO,CRITICAL,Not Started,Main sitemap
+.htaccess,Config,CRITICAL,Not Started,URL rewriting, security
+favicon.ico,Image,CRITICAL,Not Started,Website icon
+/assets/css/main.css,CSS,CRITICAL,Not Started,Main stylesheet
+/assets/js/main.js,JavaScript,CRITICAL,Not Started,Main JavaScript
+/equipment/feed-processing/index.html,HTML,HIGH,Not Started,Feed Processing category
+/equipment/feed-processing/pellet-mills/index.html,HTML,HIGH,Not Started,Pellet Mills category
+/equipment/feed-processing/pellet-mills/gear-drive-pellet-mill.html,HTML,HIGH,Not Started,Product page
+/equipment/feed-processing/pellet-mills/belt-driven-pellet-mill.html,HTML,HIGH,Not Started,Product page
+/equipment/feed-processing/pellet-mills/pellet-mill-price.html,HTML,HIGH,Not Started,Pricing page
+/equipment/feed-processing/hammer-mills/index.html,HTML,CRITICAL,Not Started,Hammer Mills category
+/equipment/feed-processing/hammer-mills/sfsp-hammer-mill.html,HTML,HIGH,Not Started,Product page
+/equipment/feed-processing/hammer-mills/water-drop-hammer-mill.html,HTML,HIGH,Not Started,Product page
+/equipment/feed-processing/hammer-mills/hammer-mill-price.html,HTML,CRITICAL,Not Started,Pricing page (Priority 175)
+/equipment/feed-processing/mixers/index.html,HTML,MEDIUM,Not Started,Mixers category
+/equipment/feed-processing/mixers/twin-shaft-paddle-mixer.html,HTML,MEDIUM,Not Started,Product page
+/equipment/feed-processing/extruders/index.html,HTML,MEDIUM,Not Started,Extruders category
+/equipment/feed-processing/extruders/mfph-twin-screw-extruder.html,HTML,HIGH,Not Started,Product page
+/equipment/feed-processing/extruders/phyl-raw-material-extruder.html,HTML,MEDIUM,Not Started,Product page
+/equipment/feed-processing/dryers/index.html,HTML,MEDIUM,Not Started,Dryers category
+/equipment/feed-processing/dryers/mfhg-steam-dryer.html,HTML,MEDIUM,Not Started,Product page
+/equipment/feed-processing/coaters/index.html,HTML,LOW,Not Started,Coaters category
+/equipment/feed-processing/coaters/pellet-coater.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/coolers/index.html,HTML,MEDIUM,Not Started,Coolers category
+/equipment/feed-processing/coolers/feed-cooler.html,HTML,MEDIUM,Not Started,Product page
+/equipment/feed-processing/ripeners/index.html,HTML,LOW,Not Started,Ripeners category
+/equipment/feed-processing/ripeners/feed-ripener.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/crumblers/index.html,HTML,LOW,Not Started,Crumblers category
+/equipment/feed-processing/crumblers/pellet-crumbler.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/cleaners-sifters/index.html,HTML,LOW,Not Started,Cleaners & Sifters category
+/equipment/feed-processing/cleaners-sifters/cleaner-sifter.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/conveying-equipment/index.html,HTML,LOW,Not Started,Conveying Equipment category
+/equipment/feed-processing/conveying-equipment/material-handling.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/dust-removal-equipment/index.html,HTML,LOW,Not Started,Dust Removal category
+/equipment/feed-processing/dust-removal-equipment/dust-collection.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/silos-rear-truck-dumpers/index.html,HTML,LOW,Not Started,Silos & Dumpers category
+/equipment/feed-processing/silos-rear-truck-dumpers/silos.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/silos-rear-truck-dumpers/rear-truck-dumper.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/packaging-palletizing/index.html,HTML,LOW,Not Started,Packaging & Palletizing category
+/equipment/feed-processing/packaging-palletizing/packaging-equipment.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/packaging-palletizing/palletizing-equipment.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/control-systems/index.html,HTML,LOW,Not Started,Control Systems category
+/equipment/feed-processing/control-systems/computer-control-system.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/auxiliary-equipment/index.html,HTML,LOW,Not Started,Auxiliary Equipment category
+/equipment/feed-processing/auxiliary-equipment/accessories.html,HTML,LOW,Not Started,Product page
+/equipment/feed-processing/animal-feed-premix/index.html,HTML,LOW,Not Started,Premix category
+/equipment/feed-processing/animal-feed-premix/premix-equipment.html,HTML,LOW,Not Started,Product page
+/equipment/water-beverage/index.html,HTML,CRITICAL,Not Started,Water & Beverage category
+/equipment/water-beverage/water-treatment/index.html,HTML,CRITICAL,Not Started,Water Treatment category
+/equipment/water-beverage/water-treatment/reverse-osmosis-plant.html,HTML,CRITICAL,Not Started,RO Plant page
+/equipment/water-beverage/water-treatment/ro-plant-price.html,HTML,CRITICAL,Not Started,RO Plant pricing
+/equipment/water-beverage/steam-boilers/index.html,HTML,MEDIUM,Not Started,Steam Boilers category
+/equipment/water-beverage/steam-boilers/steam-boiler.html,HTML,MEDIUM,Not Started,Product page
+/equipment/water-beverage/homogenizers-pasteurizers/index.html,HTML,MEDIUM,Not Started,Homogenizers category
+/equipment/water-beverage/homogenizers-pasteurizers/homogenizer-pasteurizer.html,HTML,MEDIUM,Not Started,Product page
+/equipment/water-beverage/carbonators-intermix/index.html,HTML,MEDIUM,Not Started,Carbonators category
+/equipment/water-beverage/carbonators-intermix/carbonator-intermix.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/index.html,HTML,CRITICAL,Not Started,Filling & Packaging category
+/equipment/filling-packaging/filling-machines/index.html,HTML,CRITICAL,Not Started,Filling Machines category
+/equipment/filling-packaging/filling-machines/rotary-filling-machine.html,HTML,CRITICAL,Not Started,Product page
+/equipment/filling-packaging/filling-machines/piston-filling-machine.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/filling-machines/cup-filling-machine.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/filling-machines/linear-filling-machine.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/labeling-machines/index.html,HTML,CRITICAL,Not Started,Labeling Machines category
+/equipment/filling-packaging/labeling-machines/bopp-labeling.html,HTML,HIGH,Not Started,Product page
+/equipment/filling-packaging/labeling-machines/shrink-labeling.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/labeling-machines/sticker-labeling.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/labeling-machines/tax-stamp-applicator.html,HTML,MEDIUM,Not Started,Product page
+/equipment/filling-packaging/pet-blowing/index.html,HTML,MEDIUM,Not Started,PET Blowing category
+/equipment/filling-packaging/pet-blowing/pet-blowing-machine.html,HTML,MEDIUM,Not Started,Product page
+/equipment/tanks-vessels/index.html,HTML,CRITICAL,Not Started,Tanks & Vessels category
+/equipment/tanks-vessels/stainless-steel-tanks/index.html,HTML,CRITICAL,Not Started,Stainless Steel Tanks category
+/equipment/tanks-vessels/stainless-steel-tanks/mixing-tanks.html,HTML,CRITICAL,Not Started,Product page
+/equipment/tanks-vessels/stainless-steel-tanks/storage-tanks.html,HTML,CRITICAL,Not Started,Product page
+/equipment/tanks-vessels/stainless-steel-tanks/blending-vessels.html,HTML,MEDIUM,Not Started,Product page
+/equipment/tanks-vessels/fermentation-tanks/index.html,HTML,MEDIUM,Not Started,Fermentation Tanks category
+/equipment/tanks-vessels/fermentation-tanks/fermentation-tank.html,HTML,MEDIUM,Not Started,Product page
+/equipment/tanks-vessels/extraction-vessels/index.html,HTML,MEDIUM,Not Started,Extraction Vessels category
+/equipment/tanks-vessels/extraction-vessels/extraction-vessel.html,HTML,MEDIUM,Not Started,Product page
+/equipment/tanks-vessels/zinc-aluminium-tanks/index.html,HTML,MEDIUM,Not Started,Zinc Aluminium Tanks category
+/equipment/tanks-vessels/zinc-aluminium-tanks/zinc-aluminium-tank.html,HTML,MEDIUM,Not Started,Product page
+/solutions/feed-processing/animal-feed-pellet-line/index.html,HTML,CRITICAL,Not Started,Animal Feed Pellet Line main
+/solutions/feed-processing/animal-feed-pellet-line/1-5-ton-per-hour.html,HTML,HIGH,Not Started,Capacity page
+/solutions/feed-processing/animal-feed-pellet-line/10-ton-per-hour.html,HTML,MEDIUM,Not Started,Capacity page
+/solutions/feed-processing/animal-feed-pellet-line/20-ton-per-hour.html,HTML,MEDIUM,Not Started,Capacity page
+/solutions/feed-processing/animal-feed-pellet-line/above-20-ton-per-hour.html,HTML,MEDIUM,Not Started,Capacity page
+/solutions/feed-processing/aquatic-feed-production-line/index.html,HTML,CRITICAL,Not Started,Aquatic Feed Line main
+/solutions/feed-processing/aquatic-feed-production-line/pellet-line.html,HTML,CRITICAL,Not Started,Pellet line
+/solutions/feed-processing/aquatic-feed-production-line/extruded-line.html,HTML,MEDIUM,Not Started,Extruded line
+/solutions/feed-processing/pet-food-production-line/index.html,HTML,MEDIUM,Not Started,Pet Food Line
+/solutions/feed-processing/biomass-pellet-line/index.html,HTML,MEDIUM,Not Started,Biomass Pellet Line
+/solutions/water-bottling-lines/index.html,HTML,MEDIUM,Not Started,Water Bottling Lines category
+/solutions/water-bottling-lines/water-filling-line.html,HTML,MEDIUM,Not Started,Water Filling Line
+/services/index.html,HTML,MEDIUM,Not Started,Services overview
+/services/installation.html,HTML,CRITICAL,Not Started,Installation service
+/services/maintenance.html,HTML,MEDIUM,Not Started,Maintenance service
+/services/training.html,HTML,MEDIUM,Not Started,Training service
+/services/spare-parts.html,HTML,MEDIUM,Not Started,Spare parts service
+/services/commissioning.html,HTML,MEDIUM,Not Started,Commissioning service
+/resources/buying-guides/index.html,HTML,MEDIUM,Not Started,Buying Guides overview
+/resources/buying-guides/how-to-choose-pellet-mill.html,HTML,HIGH,Not Started,Buying guide
+/resources/buying-guides/how-to-choose-water-treatment-plant.html,HTML,HIGH,Not Started,Buying guide
+/resources/buying-guides/feed-mill-capacity-selection.html,HTML,MEDIUM,Not Started,Buying guide
+/resources/buying-guides/how-to-choose-filling-machine.html,HTML,MEDIUM,Not Started,Buying guide
+/resources/buying-guides/stainless-steel-tank-selection.html,HTML,MEDIUM,Not Started,Buying guide
+/resources/comparison-guides/index.html,HTML,MEDIUM,Not Started,Comparison Guides overview
+/resources/comparison-guides/gear-drive-vs-belt-driven-pellet-mill.html,HTML,HIGH,Not Started,Comparison guide
+/resources/comparison-guides/rotary-vs-piston-filling-machine.html,HTML,MEDIUM,Not Started,Comparison guide
+/resources/comparison-guides/bopp-vs-shrink-labeling.html,HTML,MEDIUM,Not Started,Comparison guide
+/resources/case-studies/index.html,HTML,MEDIUM,Not Started,Case Studies overview
+/resources/case-studies/5-ton-feed-mill-dubai.html,HTML,MEDIUM,Not Started,Case study
+/resources/case-studies/water-treatment-plant-project.html,HTML,MEDIUM,Not Started,Case study
+/resources/case-studies/aquatic-feed-plant-project.html,HTML,MEDIUM,Not Started,Case study
+/resources/faq/index.html,HTML,LOW,Not Started,Main FAQ page
+/resources/faq/feed-processing-faq.html,HTML,LOW,Not Started,FAQ page
+/resources/faq/water-treatment-faq.html,HTML,LOW,Not Started,FAQ page
+/resources/faq/packaging-faq.html,HTML,LOW,Not Started,FAQ page
+/resources/blog/index.html,HTML,LOW,Not Started,Blog homepage
+/resources/blog/how-to-set-up-feed-mill-dubai.html,HTML,LOW,Not Started,Blog post
+/resources/blog/feed-mill-maintenance-tips.html,HTML,LOW,Not Started,Blog post
+/resources/blog/water-treatment-plant-efficiency.html,HTML,LOW,Not Started,Blog post
+/locations/index.html,HTML,MEDIUM,Not Started,Locations overview
+/locations/dubai.html,HTML,CRITICAL,Not Started,Dubai location page
+/locations/uae.html,HTML,CRITICAL,Not Started,UAE location page
+/locations/saudi-arabia.html,HTML,MEDIUM,Not Started,Saudi Arabia location page
+/locations/riyadh.html,HTML,MEDIUM,Not Started,Riyadh location page
+/assets/css/reset.css,CSS,CRITICAL,Not Started,CSS reset
+/assets/css/variables.css,CSS,CRITICAL,Not Started,CSS variables
+/assets/css/typography.css,CSS,CRITICAL,Not Started,Font styles
+/assets/css/layout.css,CSS,CRITICAL,Not Started,Layout styles
+/assets/css/components.css,CSS,CRITICAL,Not Started,Component styles
+/assets/css/responsive.css,CSS,CRITICAL,Not Started,Media queries
+/assets/js/navigation.js,JavaScript,CRITICAL,Not Started,Navigation functionality
+/assets/js/forms.js,JavaScript,CRITICAL,Not Started,Form handling
+/assets/js/calculator.js,JavaScript,MEDIUM,Not Started,ROI/Capacity calculators
+/assets/js/contact.js,JavaScript,CRITICAL,Not Started,Contact form
+/assets/js/quote.js,JavaScript,CRITICAL,Not Started,Quote request form
+/assets/images/logo/logo.svg,Image,CRITICAL,Not Started,Logo SVG
+/assets/images/logo/logo.png,Image,CRITICAL,Not Started,Logo PNG
+/assets/images/logo/logo-white.png,Image,CRITICAL,Not Started,White logo
+package.json,Config,MEDIUM,Not Started,Node.js dependencies
+.gitignore,Config,CRITICAL,Not Started,Git ignore file
+.env.example,Config,CRITICAL,Not Started,Environment variables example
+README.md,Documentation,CRITICAL,Not Started,Project documentation
+

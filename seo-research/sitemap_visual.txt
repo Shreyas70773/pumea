@@ -1,0 +1,232 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    PACIFIC UNITY MEA - WEBSITE SITEMAP                        │
+│                         SEO-Optimized Structure                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📄 / (Homepage) [CRITICAL]
+│   ├─ Target: Pacific Unity MEA, industrial equipment supplier Dubai
+│   ├─ Word Count: 1,200-1,500
+│   └─ Links to: Top 10 priority pages
+│
+├─ 📄 /about/ [CRITICAL]
+│   └─ Company history, team, values, certifications
+│
+├─ 📄 /contact/ [CRITICAL]
+│   └─ Contact form, locations, map
+│
+├─ 📄 /request-quote/ [CRITICAL]
+│   └─ Quote request form
+│
+├─ 📁 /equipment/ [CRITICAL]
+│   │
+│   ├─ 📁 /feed-processing/ [CRITICAL]
+│   │   ├─ 📄 Main category page (1,500-2,000 words)
+│   │   │
+│   │   ├─ 📁 /pellet-mills/ [CRITICAL]
+│   │   │   ├─ 📄 Main page (2,500-3,000 words)
+│   │   │   │   └─ Keywords: pellet mill Dubai, pellet mill UAE, gear drive
+│   │   │   │
+│   │   │   ├─ 📄 /gear-drive-pellet-mill/ [MEDIUM]
+│   │   │   ├─ 📄 /belt-driven-pellet-mill/ [MEDIUM]
+│   │   │   ├─ 📄 /automatic-pellet-mill/ [QUICK WIN]
+│   │   │   └─ 📄 /pellet-mill-price/ [QUICK WIN - Transactional]
+│   │   │
+│   │   ├─ 📁 /hammer-mills/ [CRITICAL]
+│   │   │   ├─ 📄 Main page (2,000-2,500 words)
+│   │   │   │   └─ Keywords: hammer mill UAE, hammer mill price UAE (PRIORITY 175)
+│   │   │   │
+│   │   │   ├─ 📄 /sfsp-hammer-mill/ [QUICK WIN]
+│   │   │   ├─ 📄 /water-drop-hammer-mill/ [QUICK WIN]
+│   │   │   └─ 📄 /hammer-mill-price/ [CRITICAL - Transactional]
+│   │   │
+│   │   ├─ 📁 /mixers/ [MEDIUM]
+│   │   │   ├─ 📄 Main page (2,000-2,500 words)
+│   │   │   └─ Keywords: twin shaft mixer, paddle mixer, feed mixer
+│   │   │
+│   │   ├─ 📁 /extruders/ [MEDIUM]
+│   │   │   ├─ 📄 Main page (2,000-2,500 words)
+│   │   │   │   └─ Keywords: twin screw extruder, fish feed extruder
+│   │   │   │
+│   │   │   └─ 📄 /mfph-extruder/ [QUICK WIN]
+│   │   │
+│   │   └─ 📁 /dryers-coolers/ [MEDIUM]
+│   │       └─ 📄 Main page (2,000-2,500 words)
+│   │
+│   ├─ 📁 /water-beverage/ [CRITICAL]
+│   │   ├─ 📁 /water-treatment/ [CRITICAL]
+│   │   │   ├─ 📄 Main page (2,500-3,000 words)
+│   │   │   │   └─ Keywords: water treatment plant Dubai (PRIORITY 157)
+│   │   │   │
+│   │   │   ├─ 📄 /ro-plant/ [CRITICAL]
+│   │   │   └─ 📄 /ro-plant-price/ [CRITICAL - Transactional]
+│   │   │
+│   │   ├─ 📁 /steam-boilers/ [MEDIUM]
+│   │   └─ 📁 /homogenizers-pasteurizers/ [LOW]
+│   │
+│   ├─ 📁 /filling-packaging/ [CRITICAL]
+│   │   ├─ 📄 Main category page (2,000-2,500 words)
+│   │   │
+│   │   ├─ 📁 /filling-machines/
+│   │   │   ├─ 📄 /rotary-filling-machine/ [CRITICAL]
+│   │   │   └─ 📄 /piston-filling-machine/ [MEDIUM]
+│   │   │
+│   │   ├─ 📁 /labeling-machines/ [CRITICAL]
+│   │   │   ├─ 📄 Main page (2,000-2,500 words)
+│   │   │   │   └─ Keywords: labeling machine Dubai (PRIORITY 157)
+│   │   │   │
+│   │   │   └─ 📄 /bopp-labeling/ [QUICK WIN]
+│   │   │
+│   │   └─ 📁 /pet-blowing/
+│   │       └─ 📄 /pet-blowing-machine/ [MEDIUM]
+│   │
+│   └─ 📁 /tanks-vessels/ [CRITICAL]
+│       ├─ 📁 /stainless-steel-tanks/ [CRITICAL]
+│       │   ├─ 📄 Main page (2,000-2,500 words)
+│       │   │   └─ Keywords: stainless steel tanks Dubai (PRIORITY 157)
+│       │   │
+│       │   ├─ 📄 /mixing-tanks/ [CRITICAL]
+│       │   ├─ 📄 /storage-tanks/ [CRITICAL]
+│       │   └─ 📄 /blending-vessels/ [MEDIUM]
+│       │
+│       └─ 📁 /fermentation-tanks/ [LOW]
+│
+├─ 📁 /solutions/ [CRITICAL]
+│   │
+│   ├─ 📁 /complete-feed-mills/ [CRITICAL]
+│   │   ├─ 📄 Main page (3,000-4,000 words)
+│   │   │   └─ Keywords: feed production line Dubai (PRIORITY 157)
+│   │   │       complete feed mill Dubai, turnkey feed plant
+│   │   │
+│   │   ├─ 📄 /1-ton-per-hour-feed-mill/ [QUICK WIN]
+│   │   ├─ 📄 /5-ton-per-hour-feed-mill/ [MEDIUM]
+│   │   └─ 📄 /turnkey-feed-plant/ [MEDIUM]
+│   │
+│   ├─ 📁 /aquatic-feed-plants/ [CRITICAL]
+│   │   ├─ 📄 Main page (2,500-3,000 words)
+│   │   │   └─ Keywords: fish feed plant Dubai (PRIORITY 157)
+│   │   │
+│   │   ├─ 📄 /fish-feed-plant/ [CRITICAL]
+│   │   └─ 📄 /shrimp-feed-line/ [QUICK WIN]
+│   │
+│   ├─ 📁 /water-bottling-lines/ [MEDIUM]
+│   └─ 📁 /beverage-production-lines/ [MEDIUM]
+│
+├─ 📁 /services/ [MEDIUM]
+│   ├─ 📄 /installation/ [CRITICAL]
+│   ├─ 📄 /maintenance/ [MEDIUM]
+│   ├─ 📄 /training/ [MEDIUM]
+│   ├─ 📄 /spare-parts/ [MEDIUM]
+│   └─ 📄 /commissioning/ [MEDIUM]
+│
+├─ 📁 /resources/ [MEDIUM]
+│   │
+│   ├─ 📁 /buying-guides/ [MEDIUM]
+│   │   ├─ 📄 Main index page
+│   │   ├─ 📄 /how-to-choose-pellet-mill/ [HIGH]
+│   │   ├─ 📄 /how-to-choose-water-treatment-plant/ [HIGH]
+│   │   ├─ 📄 /feed-mill-capacity-selection/ [MEDIUM]
+│   │   ├─ 📄 /how-to-choose-filling-machine/ [MEDIUM]
+│   │   └─ 📄 /stainless-steel-tank-selection/ [MEDIUM]
+│   │
+│   ├─ 📁 /comparison-guides/ [MEDIUM]
+│   │   ├─ 📄 Main index page
+│   │   ├─ 📄 /gear-drive-vs-belt-driven-pellet-mill/ [HIGH]
+│   │   ├─ 📄 /rotary-vs-piston-filling-machine/ [MEDIUM]
+│   │   └─ 📄 /bopp-vs-shrink-labeling/ [MEDIUM]
+│   │
+│   ├─ 📁 /case-studies/ [MEDIUM]
+│   │   ├─ 📄 Main index page
+│   │   ├─ 📄 /5-ton-feed-mill-dubai/ [MEDIUM]
+│   │   ├─ 📄 /water-treatment-plant-project/ [MEDIUM]
+│   │   └─ 📄 /aquatic-feed-plant-project/ [MEDIUM]
+│   │
+│   ├─ 📁 /faq/ [LOW]
+│   │   ├─ 📄 Main FAQ page (3,000+ words)
+│   │   ├─ 📄 /feed-processing-faq/
+│   │   ├─ 📄 /water-treatment-faq/
+│   │   └─ 📄 /packaging-faq/
+│   │
+│   └─ 📁 /blog/ [LOW]
+│       ├─ 📄 Blog index page
+│       ├─ 📄 /how-to-set-up-feed-mill-dubai/
+│       ├─ 📄 /feed-mill-maintenance-tips/
+│       ├─ 📄 /water-treatment-plant-efficiency/
+│       └─ 📄 ... (8+ blog posts)
+│
+└─ 📁 /locations/ [MEDIUM]
+    ├─ 📄 /dubai/ [CRITICAL]
+    ├─ 📄 /uae/ [CRITICAL]
+    ├─ 📄 /saudi-arabia/ [MEDIUM]
+    └─ 📄 /riyadh/ [MEDIUM]
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          PRIORITY LEGEND                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ CRITICAL  = Must be completed in Phase 1 (Months 1-2)                      │
+│ HIGH      = Should be completed in Phase 2 (Months 3-4)                     │
+│ MEDIUM    = Can be completed in Phase 2-3 (Months 3-6)                     │
+│ LOW       = Can be completed in Phase 3 or ongoing (Months 5-6+)            │
+│ QUICK WIN = Low competition keywords, fast ranking potential                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    KEYWORD PRIORITY MAPPING                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ Priority 175: hammer mill price UAE → /equipment/feed-processing/           │
+│                                 hammer-mills/hammer-mill-price/             │
+│                                                                             │
+│ Priority 157: feed production line Dubai → /solutions/complete-feed-mills/ │
+│              water treatment plant Dubai → /equipment/water-beverage/       │
+│                                 water-treatment/                            │
+│              labeling machine Dubai → /equipment/filling-packaging/         │
+│                                 labeling-machines/                          │
+│              stainless steel tanks Dubai → /equipment/tanks-vessels/        │
+│                                 stainless-steel-tanks/                     │
+│              fish feed plant Dubai → /solutions/aquatic-feed-plants/        │
+│                                                                             │
+│ Priority 112: water treatment plant Saudi Arabia → /equipment/water-beverage/│
+│                                 water-treatment/ + /locations/saudi-arabia/  │
+│                                                                             │
+│ Priority 70:  water treatment plant price UAE → /equipment/water-beverage/  │
+│                                 water-treatment/ro-plant-price/             │
+│                                                                             │
+│ Quick Wins:   SFSP hammer mill, water drop hammer mill, fish feed pellet   │
+│               mill, pellet mill price, 1 ton feed mill, automatic pellet    │
+│               mill, BOPP labeling, fish feed extruder                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    INTERNAL LINKING STRATEGY                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ Homepage → Links to top 10 priority pages                                   │
+│                                                                             │
+│ Category Pages → Link to all product pages in that category                 │
+│                                                                             │
+│ Product Pages → Link to:                                                    │
+│   - Related products (same category)                                        │
+│   - Complete solutions (if applicable)                                      │
+│   - Buying guides (relevant)                                                │
+│   - Comparison guides (if applicable)                                       │
+│   - Service pages                                                           │
+│                                                                             │
+│ Solution Pages → Link to:                                                   │
+│   - All component equipment pages                                           │
+│   - Service pages                                                           │
+│   - Case studies                                                            │
+│                                                                             │
+│ Content Pages (Guides, Comparisons) → Link to:                             │
+│   - Relevant product pages                                                  │
+│   - Related content pages                                                   │
+│                                                                             │
+│ All Pages → Link to:                                                        │
+│   - Service pages (installation, maintenance, etc.)                         │
+│   - Location pages (Dubai, UAE, etc.)                                       │
+│   - Contact page                                                            │
+│   - Request quote page                                                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
