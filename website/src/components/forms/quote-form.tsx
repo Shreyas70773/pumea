@@ -15,6 +15,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { Loader2 } from "lucide-react"
+import { trackEvent } from "@/lib/analytics"
 
 const PRODUCT_OPTIONS = [
   "Water Treatment",
@@ -33,12 +34,21 @@ const quoteSchema = z.object({
   phone: z.string().min(6, "Please enter a valid phone number"),
   product: z.string().min(1, "Please select a product category"),
   message: z.string().min(10, "Please provide some details about your requirements"),
+  intent: z.string().optional(),
+  pageType: z.string().optional(),
+  sourceRoute: z.string().optional(),
   honeypot: z.string().max(0),
 })
 
 type QuoteFormValues = z.infer<typeof quoteSchema>
 
-export function QuoteForm() {
+type QuoteFormProps = {
+  intent?: string
+  pageType?: "tofu" | "mofu" | "bofu"
+  sourceRoute?: string
+}
+
+export function QuoteForm({ intent = "purchase", pageType = "bofu", sourceRoute = "/request-quote/" }: QuoteFormProps) {
   const router = useRouter()
 
   const {
@@ -54,6 +64,9 @@ export function QuoteForm() {
       phone: "",
       product: "",
       message: "",
+      intent,
+      pageType,
+      sourceRoute,
       honeypot: "",
     },
   })
@@ -61,7 +74,15 @@ export function QuoteForm() {
   async function onSubmit(data: QuoteFormValues) {
     if (data.honeypot) return
 
-    // Placeholder — replace with actual API call
+    trackEvent("form_submit", {
+      form_type: "quote",
+      intent: data.intent ?? intent,
+      page_type: data.pageType ?? pageType,
+      source_route: data.sourceRoute ?? sourceRoute,
+      product: data.product,
+    })
+
+    // Placeholder — replace with actual API call / CRM sync
     console.log("Quote request:", data)
     await new Promise((resolve) => setTimeout(resolve, 600))
     router.push("/request-quote/success/")
@@ -79,6 +100,10 @@ export function QuoteForm() {
           {...register("honeypot")}
         />
       </div>
+
+      <input type="hidden" {...register("intent")} />
+      <input type="hidden" {...register("pageType")} />
+      <input type="hidden" {...register("sourceRoute")} />
 
       <div>
         <label htmlFor="fullName" className="mb-1.5 block text-sm font-medium">

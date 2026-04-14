@@ -8,17 +8,27 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { CheckCircle2, Loader2 } from "lucide-react"
+import { trackEvent } from "@/lib/analytics"
 
 const contactSchema = z.object({
   name: z.string().min(2, "Please enter your name"),
   email: z.string().email("Please enter a valid email address"),
   message: z.string().min(10, "Please enter a message of at least 10 characters"),
+  intent: z.string().optional(),
+  pageType: z.string().optional(),
+  sourceRoute: z.string().optional(),
   honeypot: z.string().max(0),
 })
 
 type ContactFormValues = z.infer<typeof contactSchema>
 
-export function ContactForm() {
+type ContactFormProps = {
+  intent?: string
+  pageType?: "tofu" | "mofu" | "bofu"
+  sourceRoute?: string
+}
+
+export function ContactForm({ intent = "evaluate", pageType = "mofu", sourceRoute = "/contact/" }: ContactFormProps) {
   const [submitted, setSubmitted] = useState(false)
 
   const {
@@ -31,12 +41,22 @@ export function ContactForm() {
       name: "",
       email: "",
       message: "",
+      intent,
+      pageType,
+      sourceRoute,
       honeypot: "",
     },
   })
 
   async function onSubmit(data: ContactFormValues) {
     if (data.honeypot) return
+
+    trackEvent("form_submit", {
+      form_type: "contact",
+      intent: data.intent ?? intent,
+      page_type: data.pageType ?? pageType,
+      source_route: data.sourceRoute ?? sourceRoute,
+    })
 
     // Placeholder — replace with actual API call
     console.log("Contact form:", data)
@@ -68,6 +88,10 @@ export function ContactForm() {
           {...register("honeypot")}
         />
       </div>
+
+      <input type="hidden" {...register("intent")} />
+      <input type="hidden" {...register("pageType")} />
+      <input type="hidden" {...register("sourceRoute")} />
 
       <div>
         <label htmlFor="contact-name" className="mb-1.5 block text-sm font-medium">

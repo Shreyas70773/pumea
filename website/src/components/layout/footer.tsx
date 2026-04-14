@@ -12,8 +12,12 @@ const footerLinks = {
     { label: "Tanks & Vessels", href: "/equipment/tanks-vessels" },
   ],
   company: [
+    { label: "Solutions", href: "/solutions" },
+    { label: "Systems", href: "/systems" },
+    { label: "Case Studies", href: "/case-studies" },
     { label: "Our Track Record", href: "/about/our-track-record" },
     { label: "Our Story", href: "/about/our-story" },
+    { label: "Resources", href: "/resources" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
     { label: "Request a Quote", href: "/request-quote" },

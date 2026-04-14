@@ -69,7 +69,7 @@ export default function RequestQuotePage() {
             {/* Form */}
             <Card>
               <CardContent className="p-6 md:p-8">
-                <QuoteForm />
+                <QuoteForm intent="purchase" pageType="bofu" sourceRoute="/request-quote/" />
               </CardContent>
             </Card>
 

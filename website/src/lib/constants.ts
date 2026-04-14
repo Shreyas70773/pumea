@@ -24,6 +24,8 @@ export const SOCIAL = {
 } as const
 
 export const NAV_ITEMS = [
+  { label: "Solutions", href: "/solutions" },
+  { label: "Systems", href: "/systems" },
   {
     label: "Equipment",
     href: "/equipment",
@@ -47,6 +49,7 @@ export const NAV_ITEMS = [
     ],
   },
   { label: "Blog", href: "/blog" },
+  { label: "Resources", href: "/resources" },
   { label: "About", href: "/about/our-track-record" },
 ] as const
 

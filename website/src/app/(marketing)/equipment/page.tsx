@@ -4,6 +4,8 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs"
 import { BreadcrumbSchema } from "@/components/seo/schema/breadcrumb"
 import { SectionHeading } from "@/components/shared/section-heading"
 import { Card, CardContent } from "@/components/ui/card"
+import { InternalLinkGrid } from "@/components/conversion/internal-link-grid"
+import { IntentCTA } from "@/components/conversion/intent-cta"
 
 export const metadata: Metadata = {
   title: "Industrial Equipment | Pacific Unity UAE",
@@ -69,6 +71,20 @@ export default function EquipmentPage() {
                 </Card>
               </Link>
             ))}
+          </div>
+
+          <div className="mt-10 space-y-6">
+            <InternalLinkGrid
+              title="Need a complete setup instead of single-machine selection?"
+              links={[
+                { label: "Explore Systems", href: "/systems/", description: "Aggregate equipment into full production architectures." },
+                { label: "Explore Solutions", href: "/solutions/", description: "Choose by business outcome, not just product type." },
+                { label: "Request Quote", href: "/request-quote/purchase/", description: "BOFU route for commercial and technical quotation." },
+                { label: "Case Studies", href: "/case-studies/", description: "Review implementation outcomes before shortlisting." },
+              ]}
+            />
+
+            <IntentCTA intent="bofu" sourceRoute="/equipment/" />
           </div>
         </div>
       </section>

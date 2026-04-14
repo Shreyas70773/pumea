@@ -7,6 +7,8 @@ import { SectionHeading } from "@/components/shared/section-heading"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { INDUSTRIES, getIndustryBySlug } from "@/lib/industries"
+import { IntentCTA } from "@/components/conversion/intent-cta"
+import { InternalLinkGrid } from "@/components/conversion/internal-link-grid"
 
 type PageProps = {
   params: Promise<{ slug: string }>
@@ -90,6 +92,19 @@ export default async function IndustryDetailPage({ params }: PageProps) {
               </CardContent>
             </Card>
           </div>
+
+          <InternalLinkGrid
+            title="Recommended Systems & Solution Paths"
+            subtitle="Bridge from industry context to full-system planning before model-level selection."
+            links={[
+              { label: "Explore Systems", href: "/systems/", description: "Production-line architectures mapped by use case." },
+              { label: "Explore Solutions", href: "/solutions/", description: "Outcome-driven planning paths for business goals." },
+              { label: "Book Consultation", href: "/book-consultation/", description: "MOFU consultation to shortlist your setup." },
+              { label: "Request Site Audit", href: "/request-site-audit/", description: "Validate utilities and layout before procurement." },
+            ]}
+          />
+
+          <IntentCTA intent="mofu" sourceRoute={`/industries/${industry.slug}/`} />
 
           <div className="rounded-xl border bg-muted/30 p-6 md:p-8">
             <h3 className="text-xl font-semibold">Need a tailored solution for {industry.name}?</h3>

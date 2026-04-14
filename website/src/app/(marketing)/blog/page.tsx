@@ -6,6 +6,7 @@ import { BreadcrumbSchema } from "@/components/seo/schema/breadcrumb"
 import { SectionHeading } from "@/components/shared/section-heading"
 import { Button } from "@/components/ui/button"
 import { BlogExperience } from "@/components/blog/blog-experience"
+import { IntentCTA } from "@/components/conversion/intent-cta"
 
 export const metadata: Metadata = {
   title: "Blog | Pacific Unity UAE",
@@ -46,6 +47,10 @@ export default function BlogPage() {
           <Suspense fallback={<p className="text-sm text-muted-foreground">Loading blog content...</p>}>
             <BlogExperience />
           </Suspense>
+
+          <div className="mt-10">
+            <IntentCTA intent="tofu" sourceRoute="/blog/" />
+          </div>
         </div>
       </section>
     </>
