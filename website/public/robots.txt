@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://pacificunity.ae/sitemap.xml
