@@ -5,6 +5,9 @@ export type BlogPost = {
   content: string
   author: string
   publishedAt: string
+  seoTitle?: string
+  metaDescription?: string
+  focusKeyword?: string
 }
 
 export const BLOG_STORAGE_KEY = "pacificunity.blog.posts"

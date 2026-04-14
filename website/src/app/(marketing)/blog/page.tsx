@@ -39,7 +39,7 @@ export default function BlogPage() {
               subtitle="Technical explainers and buying guides for industrial operations teams in the UAE."
             />
             <Button asChild variant="outline">
-              <Link href="/admin/blog/">Upload Blog Post</Link>
+              <Link href="/admin/login?next=/admin/blog/">Upload Blog Post</Link>
             </Button>
           </div>
 
