@@ -10,7 +10,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight">
           <span className="text-primary">Pacific</span>
@@ -30,7 +30,7 @@ export function Header() {
                 )}
               </Link>
               {"children" in item && item.children && (
-                <div className="invisible absolute left-0 top-full z-50 min-w-[220px] rounded-lg border bg-popover p-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
+                <div className="invisible absolute left-0 top-full z-50 min-w-55 rounded-lg border bg-popover p-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
                   {item.children.map((child) => (
                     <Link
                       key={child.href}
@@ -56,6 +56,9 @@ export function Header() {
           >
             <MessageCircle className="h-5 w-5" />
           </a>
+          <Button asChild size="sm" variant="outline" className="hidden sm:inline-flex">
+            <Link href="/contact">Contact</Link>
+          </Button>
           <Button asChild size="sm" className="hidden sm:inline-flex">
             <Link href="/request-quote">Request Quote</Link>
           </Button>
@@ -97,6 +100,11 @@ export function Header() {
             ))}
           </nav>
           <div className="mt-4 flex flex-col gap-2">
+            <Button asChild size="sm" variant="outline">
+              <Link href="/contact" onClick={() => setMobileOpen(false)}>
+                Contact
+              </Link>
+            </Button>
             <Button asChild size="sm">
               <Link href="/request-quote" onClick={() => setMobileOpen(false)}>
                 Request Quote

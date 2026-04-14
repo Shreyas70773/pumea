@@ -14,8 +14,15 @@ const footerLinks = {
   company: [
     { label: "Our Track Record", href: "/about/our-track-record" },
     { label: "Our Story", href: "/about/our-story" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
     { label: "Request a Quote", href: "/request-quote" },
+  ],
+  industries: [
+    { label: "Poultry & Livestock", href: "/industries/poultry-livestock" },
+    { label: "Aquaculture", href: "/industries/aquaculture" },
+    { label: "Beverage Manufacturing", href: "/industries/beverage-manufacturing" },
+    { label: "Food Processing", href: "/industries/food-processing" },
   ],
   locations: [
     { label: "Dubai", href: "/locations/dubai" },
@@ -27,7 +34,7 @@ export function Footer() {
   return (
     <footer className="border-t bg-muted/40">
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 md:py-16">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <Link href="/" className="text-xl font-bold tracking-tight">
               <span className="text-primary">Pacific</span> Unity
@@ -102,6 +109,19 @@ export function Footer() {
                 LinkedIn
               </a>
             </div>
+          </div>
+
+          <div>
+            <h3 className="font-semibold">Industries</h3>
+            <ul className="mt-3 space-y-2 text-sm">
+              {footerLinks.industries.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-muted-foreground hover:text-foreground transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

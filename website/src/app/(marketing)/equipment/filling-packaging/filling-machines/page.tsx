@@ -137,7 +137,7 @@ export default function FillingMachinesPage() {
       </div>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-background to-muted/40 px-4 pb-12 pt-8 md:px-6 md:pb-16 md:pt-12">
+      <section className="bg-linear-to-br from-background to-muted/40 px-4 pb-12 pt-8 md:px-6 md:pb-16 md:pt-12">
         <div className="mx-auto max-w-7xl">
           <Badge variant="secondary" className="mb-4">
             9,900 Monthly Searches &middot; $4.87 CPC

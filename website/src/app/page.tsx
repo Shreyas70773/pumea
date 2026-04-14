@@ -102,7 +102,7 @@ export default function HomePage() {
         <FAQPageSchema faqs={homeFaqs} />
 
         {/* Hero */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-muted/50 px-4 py-20 md:px-6 md:py-28">
+        <section className="relative overflow-hidden bg-linear-to-br from-background via-background to-muted/50 px-4 py-20 md:px-6 md:py-28">
           <div className="mx-auto max-w-7xl">
             <Badge variant="secondary" className="mb-4">
               Proven in West Africa — Now Serving the UAE

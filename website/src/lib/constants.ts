@@ -46,8 +46,8 @@ export const NAV_ITEMS = [
       { label: "Food Processing", href: "/industries/food-processing" },
     ],
   },
+  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about/our-track-record" },
-  { label: "Contact", href: "/contact" },
 ] as const
 
 export const WHATSAPP_DEFAULT_MESSAGE = "Hi, I found your website and I'm interested in learning more about your industrial equipment."

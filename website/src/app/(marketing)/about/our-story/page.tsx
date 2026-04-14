@@ -90,7 +90,7 @@ export default function OurStoryPage() {
           <div className="relative ml-4 border-l-2 border-primary/20 pl-8 md:ml-0">
             {timeline.map((item) => (
               <div key={item.year} className="relative mb-10 last:mb-0">
-                <div className="absolute -left-[calc(2rem+5px)] top-1 h-3 w-3 rounded-full border-2 border-primary bg-background" />
+                <div className="absolute -left-9.25 top-1 h-3 w-3 rounded-full border-2 border-primary bg-background" />
                 <span className="text-sm font-semibold text-primary">{item.year}</span>
                 <h3 className="mt-1 text-lg font-semibold">{item.title}</h3>
                 <p className="mt-2 text-muted-foreground">{item.description}</p>
